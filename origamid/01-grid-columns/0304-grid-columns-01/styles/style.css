@@ -1,0 +1,56 @@
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);  
+}
+
+.title {
+  grid-column: 1 / -1;
+}
+
+.info {
+  display: grid;
+  place-items: start;
+  place-self: start;
+  gap: 20px;
+}
+
+/* General styles */
+body {
+  font-family: Arial;
+  margin: 40px;
+}
+
+h1, p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1;
+}
+
+p, span {
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.buy-item {
+  background: #6DB9EF;
+  color: #0F2167;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;  
+  font-size: 20px;
+}
+
+.price {
+  background: #A0E9FF;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
